@@ -1,4 +1,5 @@
-* {   
+
+/* * {   
    width: 90%;
    height: 100%vh;
    background: url(imagenes/5dec47012d257.jpeg);
@@ -6,4 +7,12 @@
    background-attachment: fixed;
    font-size: 25px;
    color: #ffffff;  
+ } */
+
+.bloque-2 {
+   border-style: solid;
+}
+
+ .bloque-1 {
+    border-style: solid;
  }
