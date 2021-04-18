@@ -240,3 +240,18 @@ footer{
       margin-top: 40px;
    }
 }
+
+
+.imagen1 { 
+   margin-left: 500px;
+   margin-right: 500px;
+   width: 350px;
+   height: 350px;
+}
+
+.imagen2 { 
+   margin-left: 250px;
+   margin-right: 250px;
+   width: 350px;
+   height: 350px;
+}
