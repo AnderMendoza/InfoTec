@@ -1,14 +1,13 @@
-/* Encabezado o barra de navegación */
+/*Barra de navegación*/
 .container {
-   width: 85%;
-   max-width: 850px;
+   width: 80%;
    margin: 0 auto;
 }
 
 .header {
    background: #333;
    color: white;
-   padding: 2rem 0;
+   padding: 0.5rem 0;
 
    position: fixed;
    left: 0;
@@ -29,8 +28,9 @@
 }
 
 .logo {
-   letter-spacing: 15px;
-   font-size: 1.3rem;
+   max-height:50%;
+   min-height:20%;
+   width:50px;
 }
 
 .menu-icon {
@@ -68,20 +68,51 @@
  body {
    font-family: "Oswald", sans-serif;
    background-color: #000000;
+
    /* Pattern from https://www.heropatterns.com/ */
    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
    color: #1e272e;
    color: #fff;
    font-size: 16px;
  }
- 
+
+ .links:hover {
+    border-bottom: 1px solid;
+    
+ }
+
+.bloque {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 1.2rem;
+   line-height: 1.5em;
+   margin-bottom: 1.6em;
+   margin-top: 12%;
+}
+
+h1 {
+   font-size: 2rem;
+   line-height: 1.3em;
+}
+
+h3 {
+   margin-bottom: 0.5em;
+}
+
+p {
+   margin-bottom: 1.6em;
+}
+
  a {
    color: #ffffff;
    text-decoration: none;
  }
  
  ul {
-   list-style: none;
+   margin-top: -20px;
+   margin-left: 18px;
+   margin-bottom: 30px;
+}
+
  }
  
  .container {
@@ -89,7 +120,7 @@
    margin: auto;
  }
 
- /* SHOWCASE */
+ /*Apartado principal*/
 
 .btn {
    cursor: pointer;
@@ -108,16 +139,15 @@
  }
  
  .showcase {
+   margin-top: 12%;
    width: 100%;
-   height: 650px;
+   height: 550px;
    background: url("imagenes/showcase2.jpg") no-repeat center center/cover;
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
-   justify-content: flex-end;
-   padding-bottom: 50px;
-   margin-bottom: 20px;
+   justify-content: flex-end; 
    color: #fff;
  }
  
@@ -126,14 +156,10 @@
    margin-bottom: 10px;
  }
  
- .showcase .btn {
-   margin-top: 20px;
- }
- 
- /* News Cards */
+ /*Sección de resumenes del contenido*/
  .news-cards {
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   grid-template-columns: 1fr 1fr 1fr;
    gap: 25px;
    margin: 70px 0;
  }
@@ -183,7 +209,7 @@ footer {
    max-width: 400px;
 }
 
-.colum1 h1 {
+.colum1 h1 {   
    font-size: 22px;
 }
 
@@ -243,7 +269,6 @@ footer {
 
 .container-footer {
    width: 100%;  
-   background: #101010;
 }
 
 .footer {
@@ -255,13 +280,9 @@ footer {
 }
 
 .copyright {
+   margin-left: 40%;
+   margin-right: 0%;
    color: #C7C7C7;
-}
-
-.copyright a {
-   text-decoration: none;
-   color: white;
-   font-weight: bold;
 }
 
 .information a {
@@ -269,9 +290,9 @@ footer {
    color: #C7C7C7;
 }
 
-/* Encabezado para moviles */
+/*Barra de navegacion para moviles*/
 @media only screen and (max-width: 700px) {
-   
+
    .menu-icon {
       display: block;
       cursor: pointer;
@@ -306,7 +327,7 @@ footer {
                background: #4a4a4a;
             }
 
-/* Pie de página para moviles */
+/*Pie de página para moviles*/
 @media screen and (max-width: 1100px){
 
    footer {
@@ -315,6 +336,14 @@ footer {
    
    .container-body  {
        flex-wrap: wrap;
+   }
+
+   .container-footer {
+      width: 100%;
+   }
+
+   .copyright {
+      margin-left: 40px;
    }
    
    .colum1 {
