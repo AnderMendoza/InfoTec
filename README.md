@@ -22,15 +22,15 @@ Una lista de tecnologías utilizadas dentro del proyecto:
 ## Colaboración
 ***
 Desarrolladores involucrados en el desarrollo de este proyecto:
-> Anderson David Mendoza Ramos
-> Aldo Cupe Mejía
-> José Humberto Requejo Gutiérrez
+> Anderson David Mendoza Ramos  
+> Aldo Cupe Mejía  
+> José Humberto Requejo Gutiérrez  
 ## FAQs
 ***
 Una lista de preguntas frecuentes
-1. **¿Cuál es el propósito de crear esta página web?**
+1. **¿Cuál es el propósito de crear esta página web?**  
 Consideramos esta creación como una prueba de inicio a nuestra etapa de desarrolladores webs.
-2. **¿Les parece complicado iniciar en el mundo del desarrollo web?**
+2. **¿Les parece complicado iniciar en el mundo del desarrollo web?**  
 No consideramos este proceso como algo dificil, ya que solo necesitas estos rquisitos para poder internarte en este mundo del desarrollo:
 * Curiosidad por aprender nuevas cosas
 * Creatividad
