@@ -7,7 +7,7 @@
 ***
 Este es un proyecto académico de desarrollo web, donde implementamos nuestros conocimientos en lenguaje HTML, CSS y JavaScript. Todo esto basado en las enseñanzas presentadas en clase.
 ## Screenshot
-![Imagen de la portada de la página web](imagenes/INFOTEC_Sitio.PNG)
+![Imagen de la portada de la página web](imagenes/INFOTEC_Sitio.png)
 ## Tecnologías
 ***
 Una lista de tecnologías utilizadas dentro del proyecto:
