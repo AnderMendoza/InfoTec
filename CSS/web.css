@@ -1,3 +1,14 @@
+/* Global */
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+ 
+ body {
+   font-family: "Oswald", sans-serif;
+ }
+
 /*Barra de navegación*/
 .container {
    width: 80%;
@@ -8,17 +19,16 @@
    background: #333;
    color: white;
    padding: 0.5rem 0;
-
-   position: fixed;
+   position: relative;
    left: 0;
    top: 0;
    width: 100%;
 }
 
-   .header a {
-      color: white;
-      text-decoration: none;
-   }
+.header a {
+   color: white;
+   text-decoration: none;
+}
 
 .logo-nav-container {
    display: flex;
@@ -43,17 +53,59 @@
    list-style: none;
 }
 
-   .navigation ul li {
+.navigation ul li {
       display: inline-block;
-   }
+}
 
-      .navigation ul li a {
-         display: block;
-         padding: 0.5rem 1rem;
-         transition: all 0.4s linear;
-         border-radius: 5px;
-      }
+.navigation ul li a {
+display: block;
+padding: 0.5rem 1rem;
+transition: all 0.4s linear;
+border-radius: 5px;
+}
 
-         .navigation ul li a:hover {
-            background: #4a4a4a;
-         }
+.navigation ul li a:hover {
+background: #4a4a4a;
+}
+
+ /** Img header **/
+.img-header{
+   background:url(img/banner-tec.jpg);
+   background-attachment:scroll;
+   background-position:center;
+   background-size:200vh;
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode: soft-light;
+   position: relative;
+   width: 100%;
+   height:27vh;
+}
+.img-header .bienvenida{
+   width: 100%;
+   height: 35vh;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+}
+.img-header .bienvenida h2{
+   color:goldenrod;
+   font-weight: 400;
+   font-size: 40px;
+   text-align: center;
+}
+.img-header .bienvenida i {
+   color: #fff;
+}
+.img-header .bienvenida{
+   width: 100%;
+   height: 35vh;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.img-header .bienvenida i {
+   color: #fff;
+}
