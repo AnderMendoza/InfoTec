@@ -1,0 +1,110 @@
+/* SECCION HTML */
+.more-html{
+    width: 100%;
+ }
+ .more-html .html{
+     width: 100%;
+     margin-top: 20px;
+ }
+ .more-html .html h3{
+     text-align: center;
+     font-size: 40px;
+     font-weight: 400;
+     font-family: 'Mate SC', serif;
+     color: orange;
+     margin-top:1em;
+     margin-bottom: 1em;    
+ }
+
+ /** TARJETAS HTML **/
+#tarjetas{
+    display: flex;
+    justify-content: center;
+    background: #efefef;
+}
+
+.tarjetas img {
+    width: 100%;
+}
+.tarjetas {
+    width: 20%;
+    margin: 30px 30px 30px 30px;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 5px 1px 11px 0px #00000030;
+}
+
+#card1-html {
+    background: ;
+}
+
+#card2-html {
+    background:;
+}
+#card3-html {
+    background: ;
+}
+.tarjetas h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3em;
+    color: #000000;
+}
+
+.carreras {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(6, 175, 49, 0.363);
+    font-style: italic;
+}
+.parrafo {
+    width: 100%;
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: left;
+}
+hr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* SECCION CSS */
+.more-css{
+    width: 100%;
+ }
+ .more-css .css{
+     width: 100%;
+     margin-top: 50px;
+ }
+ .more-css .css h3{
+     text-align: center;
+     font-size: 40px;
+     font-weight: 400;
+     font-family: 'Mate SC', serif;
+     color: skyblue;
+     margin-bottom: 1em;
+ }
+
+
+/** TARJETAS CSS **/
+
+/* SECCION JavaScript */
+.more-javascript{
+    width: 100%;
+ }
+ .more-javascript .javascript{
+     width: 100%;
+     margin-top: 50px;
+ }
+ .more-javascript .javascript h3{
+     text-align: center;
+     font-size: 40px;
+     font-weight: 400;
+     font-family: 'Mate SC', serif;
+     color: yellow;
+     margin-bottom: 1em;
+ }
+
+
