@@ -10,7 +10,7 @@
 }
  
  body {
-   font-family: "Oswald", sans-serif;
+   font-family: 'Mate SC', serif;
    background: url(img/)
  }
 
@@ -31,6 +31,7 @@
 .header a {
    color: white;
    text-decoration: none;
+   font-family: "Oswald", sans-serif;
 }
 .logo-nav-container {
    display: flex;
@@ -135,7 +136,6 @@ background: #4a4a4a;
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    color:;
 }
 .about-us .free-content .icons{
     width: 90%;
@@ -143,14 +143,28 @@ background: #4a4a4a;
     display: flex;
     justify-content: center;
 }
-.about-us .free-content .icons > div{width: 100%; margin:0px 30px;}
+.about-us .free-content .icons > div{
+   width: 100%; 
+   margin:0px 30px;
+}
 .about-us .free-content .icons > div > .iconos{
     width:100%;
-    font-size: 40px;
-    color:#fff;
+    font-size: 80px;
     display: flex;
     justify-content: center;
 }
+
+/** ICONOS ESPECIFICOS **/
+#icono-html {
+   color: rgb(228, 148, 0);
+}
+#icono-css {
+   color: skyblue;
+}
+#icono-javascript {
+   color: yellow;
+}
+
 .about-us .free-content .icons > div h6{
     font-size: 25px;
     font-family: 'Mate SC', serif;
@@ -182,6 +196,7 @@ footer {
    left: 0;
    right: 0;
    margin-top: 3em;
+   font-family: "Oswald", sans-serif;
 }
 .container-footer-all {
    width: 100%;
