@@ -1,110 +1,48 @@
-/* SECCION HTML */
-.more-html{
-    width: 100%;
- }
- .more-html .html{
-     width: 100%;
-     margin-top: 20px;
- }
- .more-html .html h3{
-     text-align: center;
-     font-size: 40px;
-     font-weight: 400;
-     font-family: 'Mate SC', serif;
-     color: orange;
-     margin-top:1em;
-     margin-bottom: 1em;    
- }
-
- /** TARJETAS HTML **/
-#tarjetas{
+/* AJUSTES DE TODO EL BLOQUE */
+#secciones {
+    width:100%;
     display: flex;
-    justify-content: center;
-    background: #efefef;
+    padding: 1em;
 }
-
-.tarjetas img {
+.card {
     width: 100%;
-}
-.tarjetas {
-    width: 20%;
-    margin: 30px 30px 30px 30px;
+    border: 2px solid #000;
+    margin: 1em;
     background: #fff;
-    padding: 25px;
-    box-shadow: 5px 1px 11px 0px #00000030;
+}
+.card .contenido {
+    widows: 400p;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card .slider {
+    width: 100%;
+    position: relative;
+    height: 100px ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
-#card1-html {
-    background: ;
+/* COLORES DE CADA ENCABEZADO DE LOS BLOQUES */
+#html_card {
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
 }
+#css_card {
+    background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
+}
+#java_card {
+    background-image: linear-gradient(180deg, #ffff86 0, #ffff57 25%, #fffe00 50%, #cfdf00 75%, #a2c300 100%);}
 
-#card2-html {
-    background:;
+/* Propiedades de las letras */
+.card .slider h3 {
+    font-family: Lato;
+    color: #fff;
+    font-size: 2em;
 }
-#card3-html {
-    background: ;
-}
-.tarjetas h2 {
+.card .slider p {
     width: 100%;
     text-align: center;
-    margin-top: 10px;
-    font-size: 1.3em;
-    color: #000000;
 }
-
-.carreras {
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-    color: rgba(6, 175, 49, 0.363);
-    font-style: italic;
-}
-.parrafo {
-    width: 100%;
-    margin-top: 20px;
-    line-height: 25px;
-    text-align: left;
-}
-hr {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-/* SECCION CSS */
-.more-css{
-    width: 100%;
- }
- .more-css .css{
-     width: 100%;
-     margin-top: 50px;
- }
- .more-css .css h3{
-     text-align: center;
-     font-size: 40px;
-     font-weight: 400;
-     font-family: 'Mate SC', serif;
-     color: skyblue;
-     margin-bottom: 1em;
- }
-
-
-/** TARJETAS CSS **/
-
-/* SECCION JavaScript */
-.more-javascript{
-    width: 100%;
- }
- .more-javascript .javascript{
-     width: 100%;
-     margin-top: 50px;
- }
- .more-javascript .javascript h3{
-     text-align: center;
-     font-size: 40px;
-     font-weight: 400;
-     font-family: 'Mate SC', serif;
-     color: yellow;
-     margin-bottom: 1em;
- }
 
 
