@@ -4,6 +4,7 @@
     display: flex;
     padding: 1em;
 }
+
 .card {
     width: 100%;
     border: 2px solid #000;
