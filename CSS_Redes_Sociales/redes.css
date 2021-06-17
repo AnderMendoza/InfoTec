@@ -104,17 +104,17 @@ Todos los elementos que son hijos directos de .contenedor  */
 }
 
 /** ICONOS ESPECIFICOS **/
-#icono-html {
+#icono-facebook {
    color:#0051ff;
 }
-#icono-css {
+#icono-instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
 /* Esto es para definir la propiedad estándar donde se le aplicará */
     background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#icono-javascript {
+#icono-linkedin {
    color: #0e76a8;
 }
 
@@ -125,13 +125,13 @@ Todos los elementos que son hijos directos de .contenedor  */
     font-weight:900;
     margin:20px 0px 5px 0px;
 }
-#html{
+#face{
    color: #0051ff;
 }
-#css {
+#insta {
    color:purple;
 }
-#javascript {
+#linkedin {
    color:dodgerblue;
 }
 .about-us .free-content .icons > div p{
