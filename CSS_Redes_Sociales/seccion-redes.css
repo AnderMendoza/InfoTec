@@ -1,0 +1,116 @@
+.estructura {
+    display: flex;
+    justify-content: center;
+    background-color: #232427;
+}
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 100px 0 50px;
+}
+.container-2 .card {
+    position: relative;
+    min-width: 320px;
+    height: 500px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+}
+.container-2 .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #2a2b2f;
+    border-radius: 40px;
+    border: 20px solid #1e1f23;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+.container-2 .card:hover .box {
+    transform: translateY(-50px);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5) ;
+}
+
+/* Contenido de las tarjetas */ 
+.container-2 .card .box .content {
+    align-items: center;
+}
+.container-2 .card .box .content h1{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    font-family: Lato;
+}
+.imagen {
+    width: 80%;
+    margin-left: 25px;
+    margin-top: 1em;
+    padding: 2em;
+}
+
+.container-2 .card .box .content p {
+    text-align: center;
+    color: #fff;
+}
+
+/* BOTON DEL MODO OSCURO DE LA SECCION DE INFORMACIÓN DE REDES SOCIALES */
+.toggle {
+    float: left;
+    top: 20px;
+    left: calc(50% - 70px);
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggle::before {
+    content: "\f185 ";
+    font-family: fontAwesome;
+    font-size: 24px;
+}
+/* Paleta de colores del modo oscuro */
+.estructura.luz .toggle {
+    background: #154f56;
+    color: #fff;
+}
+/* Estos son los cambios que se ejecutarán al presionar el boton*/
+.estructura.luz .toggle::before {
+    content: "\f186" ;
+}
+.estructura.luz {
+    background: #ebf5fc;
+}
+.estructura.luz .container-2 .card .box{
+    background: #ebf5fc;
+    border-radius: 40px;
+    border: 20px solid #d6eeff;
+}
+.estructura.luz .container-2 .card {
+
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.308),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 10px rgba(0, 0, 0, 0.308),
+    -10px -10px 15px rgba(255, 255, 255, 0.5);
+}
+
+.estructura.luz .container-2 .card .box .content h1 {
+    color: #000;
+}
+.estructura.luz .container-2 .card .box .content p{
+    color: #000;
+}
