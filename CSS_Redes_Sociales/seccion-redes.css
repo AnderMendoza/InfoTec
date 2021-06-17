@@ -44,7 +44,7 @@
 
 /* BOTON DEL MODO OSCURO DE LA SECCION DE INFORMACIÓN DE REDES SOCIALES */
 .toggle {
-    position:relative;
+    float: left;
     top: 20px;
     left: calc(50% - 70px);
     width: 60px;
@@ -76,7 +76,7 @@
 .estructura.luz .container-2 .card .box{
     background: #ebf5fc;
     border-radius: 40px;
-    border: none;
+    border: 20px solid #d6eeff;
 }
 .estructura.luz .container-2 .card {
 
