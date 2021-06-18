@@ -1,3 +1,4 @@
+/** ESTAS SON MIS DECLARACIONES **/ 
 const slidePag = document.querySelector(".slidepage");
 const firtNextBtn = document.querySelector(".nextBtn");
 
@@ -20,6 +21,8 @@ const nombre = document.getElementById("nombre")
 //
 
 firtNextBtn.addEventListener("click", function(){
+    // CON ESTO POSICIONO MI PÁGINA AL FORMULARIO SIGUIENTE :) YA QUE CREARA UNA NUEVA CLASE LLAMADA
+    // ".active" DE DONDE PARTIRÁ OTRO DISEÑO CON CSS D:
     slidePag.style.marginLeft = "-25%";
     bullet[current - 1].classList.add("active");
     progressText[current - 1].classList.add("active");
@@ -45,7 +48,8 @@ submitBtn.addEventListener("click", function(){
     progressText[current - 1].classList.add("active");
     progressCheck[current - 1].classList.add("active");
     current += 1;
-    setTimeout(function(){
+    setTimeout(function(){ // ESTO ME SIRVE QUE AL LLEGAR A LA PARTE FINAL DEL FORMULARIO Y PRESIONAR
+    // "ENVIAR" ME APARECERA UNA ALERTA CON EL SIGUIENTE TEXTO:
         alert("!Tu registro ha sido exitoso!");
         location.reload();
     }, 800);
@@ -53,6 +57,7 @@ submitBtn.addEventListener("click", function(){
 
 
 prevBtnSec.addEventListener("click", function(){
+    // CON ESTO POSICIONO MI PÁGINA AL FORMULARIO ANTERIOR :) YA QUE REMOVERA MI CLASE ".active"//
     slidePag.style.marginLeft = "0%";
     bullet[current - 2].classList.remove("active");
     progressText[current - 2].classList.remove("active");
@@ -60,6 +65,7 @@ prevBtnSec.addEventListener("click", function(){
     current -= 1;
 });
 prevBtnThird.addEventListener("click", function(){
+     // CON ESTO POSICIONO MI PÁGINA AL FORMULARIO SIGUIENTE :) //
     slidePag.style.marginLeft = "-25%";
     bullet[current - 2].classList.remove("active");
     progressText[current - 2].classList.remove("active");
@@ -67,6 +73,7 @@ prevBtnThird.addEventListener("click", function(){
     current -= 1;
 });
 prevBtnFourth.addEventListener("click", function(){
+    // CON ESTO POSICIONO MI PÁGINA AL FORMULARIO SIGUIENTE :) //
     slidePag.style.marginLeft = "-50%";
     bullet[current - 2].classList.remove("active");
     progressText[current - 2].classList.remove("active");
