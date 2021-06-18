@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url(/CSS_Redes_Sociales/img_redes/banner-tec.jpg);
+    background: url(CSS_Redes_Sociales/img_redes/banner-tec.jpg);
 }
 /* Aqui nos introducimos al formulario */
 .container {
