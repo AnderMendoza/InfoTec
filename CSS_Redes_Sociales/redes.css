@@ -66,7 +66,7 @@
    margin-top: 30px;
    text-align: center;
    color:#000;
-   font-size: 25px;
+   font-size: 20px;
    line-height: 40px;
    font-family: 'Poppins', sans-serif;
 }
@@ -148,3 +148,19 @@ Todos los elementos que son hijos directos de .contenedor  */
    margin-top: 20px;
    margin-bottom: 20px;
 }  
+
+@media only screen and (max-width:700px) {
+    
+   /** Free Content **/
+   .about-us .free-content .icons{
+       display: block;
+       margin:0px;
+       padding:10px 0px;
+   }
+   .personajes {
+      display: block;
+      margin-left: 130px;
+   }
+   .about-us .free-content .icons > div{margin:50px 30px;}
+   .about-us .free-content .icons > div > .span-icon{font-size: 55px;}
+}
