@@ -11,6 +11,19 @@
     max-width: 1200px;
     padding: 100px 0 50px;
 }
+
+.container-2-titulo {
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    background: linear-gradient(rgb(104, 2, 27),rgba(222, 228, 173, 0.993));
+    -webkit-background-clip: text;
+   color: transparent;
+}
+
 .container-2 .card {
     position: relative;
     min-width: 320px;

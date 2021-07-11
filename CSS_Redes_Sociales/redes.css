@@ -62,16 +62,18 @@
 }
 .about-us .info p {
    width: 80%;
-   margin:50px auto;
+   margin:100px auto;
+   margin-top: 30px;
    text-align: center;
    color:#000;
-   font-size: 19px;
+   font-size: 25px;
    line-height: 40px;
-   font-family: Lato;
+   font-family: 'Poppins', sans-serif;
 }
 .about-us .free-content{
    width: 100%;
    margin-top: 100px;
+   flex-wrap: wrap;
    background-image: linear-gradient(185deg, #f5ffff 0, #b5c9f2 50%, #747577 100%);
    padding:30px;
 }
@@ -139,3 +141,10 @@ Todos los elementos que son hijos directos de .contenedor  */
     text-align: center;
     color:#fff;
 }
+
+ .personajes {
+   display: block;
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}  
