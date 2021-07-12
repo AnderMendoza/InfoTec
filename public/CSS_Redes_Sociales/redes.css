@@ -1,0 +1,166 @@
+/* Fuentes de texto */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+ /** Img header **/
+.img-header{
+   background:url(img_redes/banner-tec.jpg);
+   background-attachment:scroll;
+   background-position:center;
+   background-size: 200vh;
+   background-color: rgba(0,0,0,0.6);
+   background-blend-mode: soft-light;
+   position: relative;
+   width: 100%;
+   height: 25vh;
+}
+.bienvenida h2{
+   background: linear-gradient(rgb(25, 212, 156),rgba(200, 236, 226, 0.993));
+    -webkit-background-clip: text;
+   color: transparent;
+   font-family: 'Mate SC', serif;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 400;
+   margin-bottom: 1em;
+}
+.bienvenida{
+   width: 100%;
+   height: 35vh;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+}
+.img-header .bienvenida i {
+   color: rgb(255, 255, 255);
+}
+.img-header .bienvenida{
+   width: 100%;
+   height: 35vh;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+}
+
+/** About Us **/
+.about-us{
+   width: 100%;
+}
+.about-us .info{
+    width: 100%;
+    margin-top: 100px;
+}
+.about-us .info h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    background: linear-gradient(rgb(0, 13, 134),rgba(173, 176, 228, 0.993));
+    -webkit-background-clip: text;
+   color: transparent;
+}
+.about-us .info p {
+   width: 80%;
+   margin:100px auto;
+   margin-top: 30px;
+   text-align: center;
+   color:#000;
+   font-size: 20px;
+   line-height: 40px;
+   font-family: 'Poppins', sans-serif;
+}
+.about-us .free-content{
+   width: 100%;
+   margin-top: 100px;
+   flex-wrap: wrap;
+   background-image: linear-gradient(185deg, #f5ffff 0, #b5c9f2 50%, #747577 100%);
+   padding:30px;
+}
+.about-us .free-content h4{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 400;
+   background: linear-gradient(rgb(0, 8, 82),rgba(222, 222, 235, 0.993));
+   -webkit-background-clip: text;
+   color: transparent;
+
+}
+.about-us .free-content .icons{
+    width: 90%;
+    margin:30px auto;
+    display: flex;
+    justify-content: center;
+}
+/*  Recordar que los símbolos > (Mayor que) se pueden interpretan de la siguiente manera:
+Todos los elementos que son hijos directos de .contenedor  */
+.about-us .free-content .icons > div{
+   width: 100%; 
+   margin:0px 30px;
+}
+.about-us .free-content .icons > div > .iconos{
+    width:100%;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/** ICONOS ESPECIFICOS **/
+#icono-facebook {
+   color:#0051ff;
+}
+#icono-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+/* Esto es para definir la propiedad estándar donde se le aplicará */
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#icono-linkedin {
+   color: #0e76a8;
+}
+
+.about-us .free-content .icons > div h6{
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+    text-align: center;
+    font-weight:900;
+    margin:20px 0px 5px 0px;
+}
+#face{
+   color: #0051ff;
+}
+#insta {
+   color:purple;
+}
+#linkedin {
+   color:dodgerblue;
+}
+.about-us .free-content .icons > div p{
+    font-size: 18px;
+    text-align: center;
+    color:#fff;
+}
+
+ .personajes {
+   display: block;
+   margin-left: 40px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}  
+
+@media only screen and (max-width:700px) {
+    
+   /** Free Content **/
+   .about-us .free-content .icons{
+       display: block;
+       margin:0px;
+       padding:10px 0px;
+   }
+   .personajes {
+      display: block;
+      margin-left: 130px;
+   }
+   .about-us .free-content .icons > div{margin:50px 30px;}
+   .about-us .free-content .icons > div > .span-icon{font-size: 55px;}
+}

@@ -1,0 +1,49 @@
+/* AJUSTES DE TODO EL BLOQUE */
+#secciones {
+    width:100%;
+    display: flex;
+    padding: 1em;
+}
+
+.card {
+    width: 100%;
+    border: 2px solid #000;
+    margin: 1em;
+    background: #fff;
+}
+.card .contenido {
+    widows: 400p;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.card .slider {
+    width: 100%;
+    position: relative;
+    height: 100px ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* COLORES DE CADA ENCABEZADO DE LOS BLOQUES */
+#html_card {
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+#css_card {
+    background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
+}
+#java_card {
+    background-image: linear-gradient(180deg, #ffff86 0, #ffff57 25%, #fffe00 50%, #cfdf00 75%, #a2c300 100%);}
+
+/* Propiedades de las letras */
+.card .slider h3 {
+    font-family: Lato;
+    color: #fff;
+    font-size: 2em;
+}
+.card .slider p {
+    width: 100%;
+    text-align: center;
+}
+
+
