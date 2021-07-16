@@ -1,49 +1,123 @@
-/* AJUSTES DE TODO EL BLOQUE */
-#secciones {
-    width:100%;
-    display: flex;
-    padding: 1em;
-}
+#blog-post-card {
+    text-decoration: none;
+    border: none;
 
-.card {
-    width: 100%;
-    border: 2px solid #000;
-    margin: 1em;
-    background: #fff;
 }
-.card .contenido {
-    widows: 400p;
-    padding: 30px;
-    box-sizing: border-box;
-}
-.card .slider {
-    width: 100%;
-    position: relative;
-    height: 100px ;
+.general {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    height: 100vh;
     align-items: center;
 }
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 20rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+    color: var(--white-text);
+}
 
-/* COLORES DE CADA ENCABEZADO DE LOS BLOQUES */
-#html_card {
-    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+.card h6 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
 }
-#css_card {
-    background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);
-}
-#java_card {
-    background-image: linear-gradient(180deg, #ffff86 0, #ffff57 25%, #fffe00 50%, #cfdf00 75%, #a2c300 100%);}
+.card h2 {
+    letter-spacing: .1rem;
+    margin: 1rem 0;
 
-/* Propiedades de las letras */
-.card .slider h3 {
-    font-family: Lato;
-    color: #fff;
-    font-size: 2em;
 }
-.card .slider p {
+
+.top-row, .top-row-1, .top-row-2 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-row {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/HTML_source_code_example.svg/300px-HTML_source_code_example.svg.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.top-row-1 {
+    background: url(https://cursoswp.educacion.navarra.es/cursowp2018/wp-content/uploads/2018/03/codigo-css-1280x720.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.top-row-2 {
+    background: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/03/javascript.jpg?itok=gnWgoCTM);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.contenido {
+    padding: 2rem;
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
+.contenido p {
+    font-size: .9rem;
+}
+
+.button {
+    border-radius: 3rem;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem .3rem;
+    letter-spacing: .1rem;
+    align-self: flex-end;
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+    background-image: linear-gradient(180deg, #615744 0, #60513c 10%, #5f4b35 20%, #5d432d 30%, #5b3b26 40%, #59321f 50%, #572819 60%, #541f16 70%, #521514 80%, #500913 90%, #4d0015 100%);
+}
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Para la seccion de contenido */
+@media only screen and (max-width:800px) {
+    
+    #blog-post-card {
+        width: 100%;
+        height: 60rem;
+        
+    }
+    .general{
+        display: block;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+    .card {
+        flex-direction: unset;
+        width: auto;
+        
+    }
+    .top-row, .top-row-1, .top-row-2{
+        visibility: hidden;
+    }
+    .html-1 h2 {
+        color: orange;
+    }
+    .css-2 h2 {
+        color: skyblue;
+    }
+    .java-3 h2 {
+        color: gold;
+    }
+ 
+ }
 

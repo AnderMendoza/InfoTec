@@ -51,8 +51,8 @@
    width: 100%;
 }
 .about-us .info{
-    width: 100%;
-    margin-top: 100px;
+   width: 100%;
+   margin-top: 100px;
 }
 .about-us .info h3{
     text-align: center;
@@ -74,7 +74,7 @@
 .about-us .free-content{
     width: 100%;
     margin-top: 100px;
-    background-image: linear-gradient(180deg, #505467 0, #1f3259 50%, #00154b 100%);
+    background-image: radial-gradient(circle at 56.16% -20.44%, #80aa39 0, #67a437 16.67%, #469a31 33.33%, #008c29 50%, #007e24 66.67%, #007325 83.33%, #006b2c 100%);
     padding:30px;
 }
 .about-us .free-content h4{
@@ -133,4 +133,16 @@
     font-size: 18px;
     text-align: center;
     color:#fff;
+}
+/* Para la barra de info breve */
+
+@media only screen and (max-width:680px) {
+    
+   .about-us .free-content .icons{
+       display: block;
+       margin:0px;
+       padding:10px 0px;
+   }
+   .about-us .free-content .icons > div{margin:50px 30px;}
+   .about-us .free-content .icons > div > .span-icon{font-size: 55px;}
 }
