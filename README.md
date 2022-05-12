@@ -1,4 +1,4 @@
-# AnderMendoza.github.io
+# InfoTec
 
 # Tabla de Contenido
 1. [Info General](#info-general)
